@@ -1,0 +1,65 @@
+body {
+  background-color: #23253D;
+}
+
+.App {
+  width: 100%;
+  margin: auto;
+  max-width: fit-content;
+  align-items: center;
+  padding-top: 200px;
+}
+
+header {
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 90px;
+  line-height: 90px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  color: #ccc;
+}
+
+form {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+fieldset {
+  border: none;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+input[type="text"] {
+  width: 74%;
+  padding: 20px;
+  padding-right: 125px;
+}
+
+input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgb(255, 127, 155);
+}
+
+#result {
+  padding: 30px;
+  display: block;
+  text-align: center;
+  background: darken(#323052, 10%);
+  text-underline-position: below;
+  font-weight: 500;
+  color: #ccc;
+}
