@@ -27,7 +27,7 @@ function App() {
       })
       .then(res => {
         console.log(res.data.hash);
-        setLink(`http://bot.ly/${res.data.hash}`)
+        setLink(`http://localhost:8000/${res.data.hash}`)
       })
       .catch(err => {
         console.log(err);
